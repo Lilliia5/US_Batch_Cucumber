@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7cdd1b-8673-4fb1-8f00-4c0ed9b358d7" name="Changes" comment="plugin is added for jenkins report">
-      <change beforePath="$PROJECT_DIR$/src/test/java/RunnerClasses/_04_RunnerForGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_04_RunnerForGroups.java" afterDir="false" />
+    <list default="true" id="af7cdd1b-8673-4fb1-8f00-4c0ed9b358d7" name="Changes" comment="running on IntelliJ">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_09_RunnerForRegressionJenkins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699323179869</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="plugin is added for jenkins report">
+      <created>1699323608177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699323608177</updated>
+    </task>
+    <task id="LOCAL-00006" summary="running on IntelliJ">
+      <created>1699324850365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699324850365</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +229,7 @@
     <MESSAGE value="_03_class fixed" />
     <MESSAGE value="dependency added" />
     <MESSAGE value="plugin is added for jenkins report" />
-    <option name="LAST_COMMIT_MESSAGE" value="plugin is added for jenkins report" />
+    <MESSAGE value="running on IntelliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="running on IntelliJ" />
   </component>
 </project>

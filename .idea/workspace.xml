@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7cdd1b-8673-4fb1-8f00-4c0ed9b358d7" name="Changes" comment="dependency added">
+    <list default="true" id="af7cdd1b-8673-4fb1-8f00-4c0ed9b358d7" name="Changes" comment="plugin is added for jenkins report">
       <change beforePath="$PROJECT_DIR$/src/test/java/RunnerClasses/_04_RunnerForGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_04_RunnerForGroups.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699321428758</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="plugin is added for jenkins report">
+      <created>1699323179869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699323179869</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +212,7 @@
     <MESSAGE value="build is added for Jenkins" />
     <MESSAGE value="_03_class fixed" />
     <MESSAGE value="dependency added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dependency added" />
+    <MESSAGE value="plugin is added for jenkins report" />
+    <option name="LAST_COMMIT_MESSAGE" value="plugin is added for jenkins report" />
   </component>
 </project>

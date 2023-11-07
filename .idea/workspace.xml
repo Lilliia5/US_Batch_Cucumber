@@ -4,68 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7cdd1b-8673-4fb1-8f00-4c0ed9b358d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/Resources/ApacheExcel2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/Resources/LoginData.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/Resources/ScenarioResults.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/Resources/WriteInANewFile.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/Resources/WriteIntoExistingExcelFile.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_01_ApachePOIIntro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_02_GetAllDataFromOneRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_03_GetAllDataFromASheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_04_GetASpecificData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_05_WriteIntoExistingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_06_WriteInDifferentRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApachePOI/_07_WriteInANewFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExtentReportSteps.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_01_Login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_Country.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_CitizenshipWithScenarioOutline.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_DataTable.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_Fees.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_06_ScenarioOutlineWithDataTable.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_07_ EntranceExams.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_08_CitizenshipWithAoachePOI.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/_01_WhatIsJDBC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/_02_IntroToJDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JDBC/_03_BeforeAfter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Dialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Navigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_01_RunnerClassForSingleFeature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_02_RunnerWithMultipleFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_03_RunnersForAllFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_04_RunnerForGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_05_RunnersWithMultipleGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_06_RunnerWithPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunnerClasses/_07_RunnerWithExtendReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_CountrySteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_03_CitizenshipWithScenarioOutline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_DataTableSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_05_FeeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_06_ScenarioOutlineWithDataTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_07_EntranceExamsSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_08_CitizenshipWithApachePOI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/DriverClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/ExcelUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/MyMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/What is Maven" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/extent.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/SparkReport/Spark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/embedded2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/embedded3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/embedded4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/screenshots/embedded5.png" afterDir="false" />
+    <list default="true" id="af7cdd1b-8673-4fb1-8f00-4c0ed9b358d7" name="Changes" comment="build is added for Jenkins">
+      <change beforePath="$PROJECT_DIR$/src/test/java/JDBC/_03_BeforeAfter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JDBC/_03_BeforeAfter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,6 +165,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694739133028</updated>
     </task>
+    <task id="LOCAL-00001" summary="build is added for Jenkins">
+      <created>1699320628821</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699320628821</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,5 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="build is added for Jenkins" />
+    <option name="LAST_COMMIT_MESSAGE" value="build is added for Jenkins" />
   </component>
 </project>

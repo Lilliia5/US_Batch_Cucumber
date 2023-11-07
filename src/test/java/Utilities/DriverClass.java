@@ -3,6 +3,7 @@ package Utilities;
 import org.checkerframework.checker.units.qual.C;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
@@ -27,9 +28,13 @@ public class DriverClass {
         Logger logger = Logger.getLogger("");
         logger.setLevel(Level.SEVERE);
         if (threadDriver.get() == null) {
-            switch (browserName.get()){
+            switch (browserName.get()) {
                 case "chrome":
-                    threadDriver.set(new ChromeDriver());
+                    ChromeOptions options = new ChromeOptions();
+                    if (!runningOnIntelliJ()){
+                        options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--window-size=1400,2400");
+                    }
+                    threadDriver.set(new ChromeDriver(options));
                     break;
                 case "firefox":
                     threadDriver.set(new FirefoxDriver());
@@ -68,5 +73,9 @@ public class DriverClass {
 
     public static void setBrowserName(String browser){
         browserName.set(browser.toLowerCase());
+    }
+    public static boolean runningOnIntelliJ(){
+        String classpath = System.getProperty("java.class.path");
+        return classpath.contains("idea_rt.jar");
     }
 }
